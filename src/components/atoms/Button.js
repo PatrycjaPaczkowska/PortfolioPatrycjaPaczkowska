@@ -4,7 +4,7 @@ const Button = styled.button`
 	border: 1px solid grey;
 	padding: 20px;
 	text-transform: uppercase;
-	background-color: ${({ theme }) => theme.body};
+	background-color: ${({ theme }) => theme.bodyColor};
 	font-weight: 600;
 	color: ${({ theme }) => theme.text};
 `;

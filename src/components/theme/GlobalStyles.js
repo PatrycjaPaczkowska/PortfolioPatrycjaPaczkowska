@@ -9,8 +9,8 @@ export const GlobalStyles = createGlobalStyle`
 }
 
   body {
-    background: ${({ theme }) => theme.body};
-    color: ${({ theme }) => theme.text};
+    background: ${({ theme }) => theme.bodyColor};
+    color: ${({ theme }) => theme.textColor};
     transition: 0.50s linear;
   }
   `;
