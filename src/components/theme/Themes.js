@@ -6,6 +6,8 @@ export const lightTheme = {
    bgcColorButton: 'lightblue',
    shadowLogo: "drop-shadow(2px 4px 6px gray)",
    scrollColor: "#191a17",
+   buttonTextColor: "#8b8b8b;",
+   buttonHoverColor: "black",
 }
 
 export const darkTheme = {
@@ -16,4 +18,7 @@ export const darkTheme = {
    bgcColorButton: 'darkblue',
    shadowLogo: "drop-shadow(1px 1px 1px black)",
    scrollColor: "white",
+   buttonTextColor: "#8b8b8b",
+   buttonHoverColor: "white",
+
 }

@@ -10,7 +10,7 @@ const Presentation = () => {
 		margin: 10px 0;
 		font-size: 13px;
 		font-weight: 800;
-		color: rgb(19, 89, 128);
+		color: rgb(33 139 199);
 	`;
 
 	const PresentationBox = styled.div`

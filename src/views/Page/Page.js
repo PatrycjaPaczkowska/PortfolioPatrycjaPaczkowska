@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import { GlobalStyles } from "../../components/theme/GlobalStyles";
 import Presentation from "../../components/organisms/Presentation/Presentation";
 import Navigation from "../../components/organisms/Navigation/Navigation";
+import  Projects from '../../components/organisms/Projects/Projects';
+import Footer from '.././../components/organisms/Footer/Footer';
 import { lightTheme, darkTheme } from "../../components/theme/Themes";
 import styled, { ThemeProvider } from "styled-components";
 import photo from "../../images/photo.jpg";
@@ -127,8 +129,8 @@ const Page = () => {
 					</DescriptionBox>
 					<PhotoBox />
 				</MainContainer>
-            <h1 id="projects">Projects</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur deleniti, illum inventore consectetur modi minima animi rerum corporis recusandae ipsam voluptates praesentium mollitia, aliquid blanditiis ullam eos provident ratione ex accusantium est? Vel, facere debitis. Ipsum officia et ea fugiat quod distinctio excepturi? Aperiam sapiente hic eos repudiandae modi nesciunt ullam omnis, mollitia, rerum accusantium veritatis. Similique, a officia!</p>
+            <Projects />
+           <Footer />
 			</>
 		</ThemeProvider>
 	);
